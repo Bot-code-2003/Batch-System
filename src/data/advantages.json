@@ -1,0 +1,16 @@
+{
+  "mainHeading": "Why Choose Uifry?",
+  "subHeading": "ADVANTAGES",
+  "features": [
+    {
+      "title": "Clever Notifications",
+      "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+      "image": "images/star-01.png"
+    },
+    {
+      "title": "Fully Customizable",
+      "description": "Proin aliquet mollis risus, id fringilla nulla vehicula sit amet. Fusce at nunc vitae leo volutpat elementum.",
+      "image": "images/cube-02.png"
+    }
+  ]
+}

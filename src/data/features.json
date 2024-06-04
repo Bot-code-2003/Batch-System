@@ -1,0 +1,21 @@
+{
+  "mainHeading": "Uifry Premium",
+  "subHeading": "Features",
+  "features": [
+    {
+      "title": "Budgeting Intervals",
+      "description": "Cum et convallis risus placerat aliquam, nunc. Scelerisque aliquet faucibus tincidunt eu adipiscing sociis arcu lorem porttitor.",
+      "image": "images/star-01.png"
+    },
+    {
+      "title": "Financial Insights",
+      "description": "Proin aliquet mollis risus, id fringilla nulla vehicula sit amet. Fusce at nunc vitae leo volutpat elementum.",
+      "image": "images/cube-02.png"
+    },
+    {
+      "title": "Expense Tracking",
+      "description": "Aenean facilisis risus non risus suscipit, ac ultrices felis pharetra. Curabitur nec sem at nisl mattis luctus.",
+      "image": "images/cube-04.png"
+    }
+  ]
+}

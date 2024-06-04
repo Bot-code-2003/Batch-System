@@ -1,0 +1,148 @@
+p,
+h1 {
+  font-family: "Clash Display", "sans-serif";
+}
+
+/* MOBILEMENU COMPONENT */
+.Mobile-Menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Mobile-Menu span {
+  font-size: 30px;
+}
+.Mobile-Menu button {
+  padding: 5px !important;
+}
+.Mobile-Menu a {
+  text-align: center;
+}
+
+/* HERO COMPONENT */
+
+.hero-img1,
+.hero-img2,
+.hero-img3 {
+  width: 549px;
+  height: 704px;
+  position: absolute;
+}
+.hero-img1 {
+  z-index: 10;
+}
+.hero-img2 {
+  z-index: 9;
+  left: 100px;
+  top: 50px;
+}
+.hero-img3 {
+  z-index: 8;
+  left: 200px;
+  top: 100px;
+}
+.hero-eclipse {
+  transform: rotate(10px);
+  position: absolute;
+  left: 150px;
+  z-index: -200;
+}
+
+/* Button Styling */
+.Button,
+.Button-I {
+  transition: transform 0.3s ease;
+}
+.Button:hover {
+  transform: scale(1.05);
+  @apply bg-primary;
+}
+.Button-I:hover {
+  color: white;
+  transform: scale(1.05);
+  @apply bg-primary;
+}
+
+/* FINAL COMPONENT */
+.final-img-small {
+  height: 50%;
+  width: 50%;
+}
+
+@media (max-width: 768px) {
+  p {
+    font-size: 16px !important;
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+    font-size: 36px !important;
+  }
+  div {
+    padding: 7px !important;
+  }
+
+  /* HERO COMPONENT */
+  .Hero {
+    padding: 2px !important;
+  }
+  .Hero-col {
+    padding: 0 !important;
+    /* max-width: 50% !important; */
+  }
+
+  /* FEATURES & ADVANTAGES COMPONENT */
+  .Features {
+    padding: 10px !important;
+  }
+  .fe-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Features-img-col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .Features-img-col img {
+    width: 50%;
+    height: 50%;
+  }
+  .Features-data-col {
+    display: flex;
+    justify-content: center;
+    padding: 10px !important;
+  }
+
+  /* TESTIMONIALS COMPONENT */
+  .Testimonials {
+    margin-top: 10px;
+    padding: 0 !important;
+  }
+  .Testimonials img {
+    width: 25%;
+    height: 25%;
+    padding: 5px;
+  }
+  .Testimonials .ant-col {
+    padding: 0px !important;
+  }
+  .Testimonials button {
+    display: none;
+  }
+  .rec {
+    padding: 0 !important;
+    display: flex;
+    justify-content: center;
+  }
+
+  /* FAQ COMPONENT */
+  .FAQ {
+    padding: 0 !important;
+  }
+  .FAQ-I span,
+  .FAQ-A {
+    font-size: medium;
+  }
+}

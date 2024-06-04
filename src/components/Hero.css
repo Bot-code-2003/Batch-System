@@ -1,0 +1,40 @@
+.hero-img1,
+.hero-img2,
+.hero-img3 {
+  width: 549px;
+  height: 704px;
+  position: absolute;
+}
+
+.hero-img1 {
+  z-index: 10;
+}
+
+.hero-img2 {
+  z-index: 9;
+  left: 100px;
+  top: 50px;
+}
+
+.hero-img3 {
+  z-index: 8;
+  left: 200px;
+  top: 100px;
+}
+
+.hero-eclipse {
+  transform: rotate(10px);
+  position: absolute;
+  left: 150px;
+  z-index: -200;
+}
+
+@media (max-width: 768px) {
+  .Hero {
+    padding: 2px !important;
+  }
+  .Hero-col {
+    padding: 0 !important;
+    /* max-width: 50% !important; */
+  }
+}
